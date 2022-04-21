@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+           
+                }
+
+        .imgd{
+            background-image: url('https://cdn.pixabay.com/photo/2022/01/18/07/38/cat-6946505_960_720.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        nav {
+            /* background-image: url('https://cdn.pixabay.com/photo/2022/01/10/18/09/budapest-6928973_960_720.jpg'); */
+            background-size: cover;
+            background-color: rgb(9, 108, 173) ;
+            position: relative;
+            top: 5%;
+            width: 100%;
+        }
+       nav a{
+           float: right;
+           padding: 20px;
+           text-decoration: none;
+           font-size: 40px;
+           color: white;
+       }
+      nav a:nth-child(1) {
+        float: left;
+      }
+      div{
+          padding: 50px;
+           margin: 0px;
+           /* border: 2px solid; */
+      }
+      div p{
+          position: relative;
+          top: 500px;
+          
+         
+      }
+      div img{
+          float: right;
+         
+      }
+
+      div img:hover{
+          animation-name: image;
+          animation-duration: 2s;
+          animation-delay: 0s;
+          animation-iteration-count: infinite;
+      }
+
+      @keyframes image {
+        100%{transform: rotate(360deg);}
+      }
+
+      .mid{
+          height: 100vh;
+      }
+      #sp{
+          height: 800px;
+          margin: 100px;
+      }
+    </style>
+  </head>
+  <body>
+   <div class="imgd">
+    <nav>
+      
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Gallery</a>
+        <a href="#cont">Contact</a>
+    </nav>
+
+    <div class="mid">
+
+    </div>
+</div>
+    <div id="sp">
+      <p>
+        <img src="https://cdn.pixabay.com/photo/2021/12/04/04/44/flowers-6844359__340.jpg" alt="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Tempora autem
+            non tempore omnis, minima ratione ad assumenda dignissimos eius nemo
+            quae <br> blanditiis totam eligendi illum, animi <br> doloremque repellat. Nulla
+            pariatur et explicabo repellendus reiciendis, <br> quisquam illo dignissimos
+            quos eaque possimus ab numquam laborum impedit. Veritatis unde
+            accusantium laboriosam
+          
+         
+      </p>
+      
+      <div id="cont"></div>
+      
+    </div>
+  
+    
+  </body>
+</html>

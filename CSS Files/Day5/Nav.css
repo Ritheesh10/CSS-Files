@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2021/12/15/04/48/animal-6871771_960_720.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+}
+
+ul{
+    list-style-type: none;
+    
+    width: 100%;
+    overflow: hidden;
+    background-image: url('https://cdn.pixabay.com/photo/2021/12/15/04/48/animal-6871771_960_720.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    
+}
+ul li {
+    float: left;
+    
+    
+}
+li a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    display: block;
+    padding: 20px;
+    border-right: 2px solid red;
+}
+.active{
+    background-color: rgb(10, 172, 172);
+}
+li a:hover:not(.active){
+    background-color: red;
+}
+
+li:last-child a{
+    border: none;
+}
+

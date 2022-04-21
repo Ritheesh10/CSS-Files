@@ -1,0 +1,26 @@
+p
+{
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+#p1{
+    border: 2px solid blue;
+    background-color: pink;
+}
+#div1{
+    border: 2px solid rebeccapurple;
+    margin: 10px;
+    padding: 10px;
+}
+._img{
+    height: 300px;
+    margin: 10px;
+}
+.div2{
+    background-color: rgb(122, 121, 120);
+    padding: 10px;
+}
+*{
+    font-family: sans-serif;
+}

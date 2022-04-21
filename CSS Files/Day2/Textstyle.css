@@ -1,0 +1,25 @@
+div p{
+    text-align: justify;
+    text-transform: capitalize;
+    text-shadow: 20px black ;
+    text-indent: 30px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-decoration: line-through;
+    line-height: -40px;
+    /* white-space: nowrap; */
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    border: 2px solid;
+    /* outline: 2px groove pink; */
+    outline-offset: 5px;
+}
+
+h2{
+    text-shadow: 0px 10px 4px  red,0px 0px 10px green;
+}
+

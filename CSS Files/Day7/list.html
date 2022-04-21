@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+     ul{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background-color: aquamarine;
+     }
+     ul li{
+         list-style-type: none;
+         padding: 20px;
+     }
+
+     .drop{
+         display: none;
+         position: absolute;
+     }
+
+     .drop ul {
+         display: block;
+     }
+
+     .down:hover .drop{
+        display: block;
+     }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li class="down">Services <i class="fas fa-arrow-down"></i>
+            <div class="drop">
+                <ul><li>home</li>
+                <li>about</li>
+                <li>services</li>
+                <li>contact</li></ul>
+            </div>
+        </li>
+        <li>Contact</li>
+    </ul>
+</body>
+</html>
